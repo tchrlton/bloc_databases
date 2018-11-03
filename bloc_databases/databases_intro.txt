@@ -1,0 +1,71 @@
+1. 
+
+"A Clockwork Orange" = string
+42 = integer
+09/02/1945 = integer
+98.7 = float
+$15.99 = float
+
+2.
+A database would be used when you are wanting specific data in an efficient way and also be able to manipulate it as well.
+A text file is able to be read by humans and a database uses binary file format which cannot be read by humans but by 
+computers which makes it faster for them to find the data. 
+
+3. 
+SQL is a declerative programming language that we can use to find out what we want ourselves instead of how the database
+can find it. 
+
+4. 
+The pieces of a database system work by having a set of data from a binary text file that the computer uses to be able
+to sort through the data as best as possible. The data is pieced together by being in a table with rows and columns and 
+the actual values in the table. 
+
+5. 
+A table is the structure of the data in the database that has rows and columns with their values.
+A row is usually one data set that pertain to a complete conceptual unit.
+A column is what defines what the data represents.
+A value is a piece of information from the individual cell of the table. 
+
+6.
+The data types that can be used in a cell are a string, integer, or float. 
+
+7.
+a. We are selecting the date and amount columns from the payments table. This results in:
+'2016-05-01', 1500.00,
+'2016-05-10', 37.00,
+'2016-05-15', 124.93,
+'2016-05-23', 54.72
+
+b. We are selecting the amount column from the payments table where the amount is greater than 500. 
+1500.00
+
+c. We are selecting all the columns from the payments table where payee is 'Mega Foods'.
+'2016-05-15', 'Mega Foods', 124.93,  'Groceries'
+
+
+8. 
+a.
+SELECT email, signup
+FROM users
+WHERE name = 'DeAndre Data';
+
+output:
+'datad@comcast.net', '2008-01-20'
+
+b.
+SELECT userid
+FROM users
+WHERE email =  'aleesia.algorithm@uw.edu';
+
+output:
+1
+
+c.
+SELECT *
+FROM users
+WHERE userid = 4;
+
+output:
+4, 'Brandy Boolean', 'bboolean@nasa.gov', '1999-10-15'
+
+
